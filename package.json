@@ -5,7 +5,8 @@
   "private": true,
   "license": "MIT",
   "scripts": {
-    "start": "node --inspect=0.0.0.0 server.js",
+    "start": "node server.js",
+    "debug": "node --inspect=0.0.0.0 server.js",
     "start:dev": "nodemon server.js",
     "start:prod": "node server.js",
     "image": "docker build -t mikkimichaelis/irecovery-zoom-backend:latest . && docker push mikkimichaelis/irecovery-zoom-backend:latest"
