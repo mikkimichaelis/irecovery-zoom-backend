@@ -3,7 +3,7 @@ services:
     image: mikkimichaelis/irecovery-zoom-backend:latest
     tty: true
     working_dir: /home/node/app
-    command: ["npm", "run", "start:prod"]
+    command: ["npm", "run", "server"]
     env_file:
       - .env
 
