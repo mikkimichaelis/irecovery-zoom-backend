@@ -18,4 +18,4 @@ COPY . .
 COPY wait-for-it.sh .
 RUN chmod +x wait-for-it.sh
 
-CMD [ "npm", "run", "start:prod" ]
+CMD [ "npm", "run", "server" ]
