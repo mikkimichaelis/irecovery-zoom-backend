@@ -1,9 +1,9 @@
 services:
   backend:
-    image: mikkimichaelis/irecovery-zoom-backend:latest
+    image: mikkimichaelis/irecovery-zoom-backend:test
     tty: true
     working_dir: /home/node/app
-    command: ["npm", "run", "server"]
+    command: ["npm", "run", "start"]
     env_file:
       - .env
 
